@@ -1,0 +1,25 @@
+# Jenkins data volume (ne jamais committer)
+jenkins_home/
+data/
+
+# Docker override local
+docker-compose.override.yml
+
+# Secrets / credentials
+*.pem
+*.key
+secrets/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
