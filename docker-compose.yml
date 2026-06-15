@@ -11,7 +11,6 @@ services:
     volumes:
       - jenkins_home:/var/jenkins_home          # Données persistantes Jenkins
       - /var/run/docker.sock:/var/run/docker.sock  # Accès Docker depuis Jenkins
-      - C:/Data/IA/Infra/Infra/infra-demo-liberty/apps:/liberty-apps  # Dossier dropins Liberty
     environment:
       - JAVA_OPTS=-Duser.timezone=Europe/Paris
 
